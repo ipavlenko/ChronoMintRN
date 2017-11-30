@@ -1,0 +1,16 @@
+{
+  "presets": ["react-native"],
+  "plugins": [
+    ["module-resolver", {
+      "root": ["./src"],
+      "alias": {
+        "config": "./node_modules/@chronobank/chronomint-core/config",
+        "Login": "./node_modules/@chronobank/chronomint-core/Login",
+        "dao": "./node_modules/@chronobank/chronomint-core/dao",
+        "models": "./node_modules/@chronobank/chronomint-core/models",
+        "config": "./node_modules/@chronobank/chronomint-core/config",
+        "utils": "./node_modules/@chronobank/chronomint-core/utils"
+      }
+    }]
+  ]
+}
